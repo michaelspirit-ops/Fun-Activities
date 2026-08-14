@@ -1,0 +1,152 @@
+body {
+  background: black;
+  color: white;
+}
+h1 {
+  font-weight : bold;
+  text-align : center;
+  font-size : 50px;
+  font-family: Sans-Serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#raven-logo {
+  position: absolute;
+  left: 255px;
+  width: 90px;
+  height: 90px;
+}
+#raven-logo2 {
+  position: absolute;
+  left: 930px;
+  width: 90px;
+  height: 90px;
+}
+
+#content {
+  background-color: white;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.content-stuff {
+  margin-right: 10px;
+  margin-left: 2px;
+  text-decoration: none;
+}
+
+/* Body */
+h2 {
+  text-align : center;
+  font-size : 35px;
+}
+
+.paragraph {
+  text-align: justify;
+  font-size: 18px;
+  font-family: impact, serif;
+}
+
+#pictures {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 55px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.images {
+    border-radius: 9px;
+}
+
+#audio1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#video1 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  margin-top: -98px;
+}
+
+hr {
+  background-color: white;
+  border: none;
+  height: 1px;
+}
+/* form */
+#your-view {
+  padding-top: 25px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+  line-height: 1.5;
+}
+
+textarea {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+  width: 10%;
+  border-radius: 4px;
+  border: none;
+  background-color: lightcoral;
+  transition: background-color 0.5s;
+}
+button:hover {
+  background-color: red;
+}
+button:active {
+  background-color: deeppink;
+}
+
+/* footer */
+#spirit-logo {
+  display: inline;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 95px;
+}
+#spirit-logo2 {
+  display: inline;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 1105px;
+}
+.ending {
+  color: gray;
+  transition: color 0.3s;
+}
+.ending:hover {
+  color: #383838;
+}
+#footer {
+  line-height: 1;
+  color: gray;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
